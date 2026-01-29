@@ -10,7 +10,7 @@ p {
 	padding: 20px;
 }
 h1{
-	font-family: "Imeprezime.ttf";
+	font-family: "Imeprezime";
 	color: white;
 }
 h2{
@@ -63,6 +63,7 @@ span {color: rgb(255,0,255);}
 	.background{
 	background-image: url("Wuwasc.png");
 	}
+
 
 
 
