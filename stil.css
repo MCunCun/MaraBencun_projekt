@@ -9,10 +9,19 @@ p {
 	background-color: black;
 	padding: 20px;
 }
-h1{
-	font-family: "Imeprezime.ttf";
-	color: white;
+
+@font-face {
+    font-family: "MojaCustomFontana";
+    src: url("Imeprezime.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
+
+h1 {
+    font-family: "MojaCustomFontana", sans-serif;
+    color: white;
+}
+
 h2{
 	font-family:"CabinSketch";
 	color: white;
@@ -63,6 +72,7 @@ span {color: rgb(255,0,255);}
 	.background{
 	background-image: url("Wuwasc.png");
 	}
+
 
 
 
